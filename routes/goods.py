@@ -25,9 +25,9 @@ def add():
     return render_template("goods_add.html")
 
 
-@goods_bp.route("/edit/<int:goods_id>", methods=["GET", "POST"])
-def edit(goods_id):
-    good = Goods.get_or_none(Goods.id == goods_id)
+@goods_bp.route("/edit/<int:good_id>", methods=["GET", "POST"])
+def edit(good_id):
+    good = Goods.get_or_none(Goods.id == good_id)
     if not good:
         return redirect(url_for("goods.list"))
 
@@ -38,4 +38,4 @@ def edit(goods_id):
         good.save()
         return redirect(url_for("goods.list"))
 
-    return render_template("goods_edit.html", goods=good)
+    return render_template("goods_edit.html", good=good)
