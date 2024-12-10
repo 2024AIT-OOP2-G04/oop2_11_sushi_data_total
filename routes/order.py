@@ -16,9 +16,9 @@ def list():
 def add():
     if request.method == "POST":
         customer_id = request.form["customer_id"]
-        goods_id = request.form["goods_id"]
+        good_id = request.form["good_id"]
         order_date = datetime.now()
-        Order.create(customer=customer_id, goods=goods_id, order_date=order_date)
+        Order.create(customer=customer_id, good=good_id, order_date=order_date)
         return redirect(url_for("order.list"))
 
     customers = Customer.select()

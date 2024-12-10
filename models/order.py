@@ -6,7 +6,7 @@ from .goods import Goods
 
 class Order(Model):
     customer = ForeignKeyField(Customer, backref="orders")
-    goods = ForeignKeyField(Goods, backref="orders")
+    good = ForeignKeyField(Goods, backref="orders")
     order_date = DateTimeField()
 
     class Meta:
