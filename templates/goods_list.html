@@ -23,12 +23,12 @@
             </tr>
         </thead>
         <tbody>
-            {% for goods in items %}
+            {% for good in items %}
             <tr>
-                <td><a href="{{ url_for('goods.edit', goods_id=goods.id) }}">編集</a></td>
-                <td>{{ goods.name }}</td>
-                <td>{{ goods.price }}</td>
-                <td>{{ goods.categori }}</td>
+                <td><a href="{{ url_for('goods.edit', good_id=good.id) }}">編集</a></td>
+                <td>{{ good.name }}</td>
+                <td>{{ good.price }}</td>
+                <td>{{ good.categori }}</td>
             </tr>
             {% endfor %}
         </tbody>
