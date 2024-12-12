@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, request, redirect, url_for
 from models import Customer
 import json
 
-from base import api_bp
+from .base import api_bp
 
 @api_bp.route("/number_of_usage_by_table", methods=["GET"])
 def number_of_usage_by_table():
