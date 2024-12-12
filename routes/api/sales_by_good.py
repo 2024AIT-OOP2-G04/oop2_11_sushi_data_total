@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, request, redirect, url_for
 from models import Order
 import json
 
-api_bp = Blueprint("api", __name__, url_prefix="/api")
+from .base import api_bp
 
 
 @api_bp.route("/sales_by_good", methods=["GET"])
