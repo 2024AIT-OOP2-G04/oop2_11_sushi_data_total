@@ -80,70 +80,6 @@
         "documentation": {}
     },
     {
-        "label": "Model",
-        "importPath": "peewee",
-        "description": "peewee",
-        "isExtraImport": true,
-        "detail": "peewee",
-        "documentation": {}
-    },
-    {
-        "label": "CharField",
-        "importPath": "peewee",
-        "description": "peewee",
-        "isExtraImport": true,
-        "detail": "peewee",
-        "documentation": {}
-    },
-    {
-        "label": "IntegerField",
-        "importPath": "peewee",
-        "description": "peewee",
-        "isExtraImport": true,
-        "detail": "peewee",
-        "documentation": {}
-    },
-    {
-        "label": "Blueprint",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "url_for",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
         "label": "Blueprint",
         "importPath": "flask",
         "description": "flask",
@@ -320,14 +256,6 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "models",
-        "description": "models",
-        "isExtraImport": true,
-        "detail": "models",
-        "documentation": {}
-    },
-    {
         "label": "initialize_database",
         "importPath": "models",
         "description": "models",
@@ -385,15 +313,6 @@
         "description": "models.order",
         "peekOfCode": "class Order(Model):\n    customer = ForeignKeyField(Customer, backref=\"orders\")\n    good = ForeignKeyField(Goods, backref=\"orders\")\n    order_date = DateTimeField()\n    class Meta:\n        database = db",
         "detail": "models.order",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "kind": 6,
-        "importPath": "models.user",
-        "description": "models.user",
-        "peekOfCode": "class User(Model):\n    name = CharField()\n    age = IntegerField()\n    class Meta:\n        database = db",
-        "detail": "models.user",
         "documentation": {}
     },
     {
@@ -502,42 +421,6 @@
         "description": "routes.order",
         "peekOfCode": "order_bp = Blueprint(\"order\", __name__, url_prefix=\"/orders\")\n@order_bp.route(\"/\")\ndef list():\n    orders = Order.select()\n    return render_template(\"order_list.html\", title=\"注文一覧\", items=orders)\n@order_bp.route(\"/add\", methods=[\"GET\", \"POST\"])\ndef add():\n    if request.method == \"POST\":\n        customer_id = request.form[\"customer_id\"]\n        good_id = request.form[\"good_id\"]",
         "detail": "routes.order",
-        "documentation": {}
-    },
-    {
-        "label": "list",
-        "kind": 2,
-        "importPath": "routes.user",
-        "description": "routes.user",
-        "peekOfCode": "def list():\n    # データ取得\n    users = User.select()\n    return render_template('user_list.html', title='ユーザー一覧', items=users)\n@user_bp.route('/add', methods=['GET', 'POST'])\ndef add():\n    if request.method == 'POST':\n        name = request.form['name']\n        age = request.form['age']\n        User.create(name=name, age=age)",
-        "detail": "routes.user",
-        "documentation": {}
-    },
-    {
-        "label": "add",
-        "kind": 2,
-        "importPath": "routes.user",
-        "description": "routes.user",
-        "peekOfCode": "def add():\n    if request.method == 'POST':\n        name = request.form['name']\n        age = request.form['age']\n        User.create(name=name, age=age)\n        return redirect(url_for('user.list'))\n    return render_template('user_add.html')\n@user_bp.route('/edit/<int:user_id>', methods=['GET', 'POST'])\ndef edit(user_id):\n    user = User.get_or_none(User.id == user_id)",
-        "detail": "routes.user",
-        "documentation": {}
-    },
-    {
-        "label": "edit",
-        "kind": 2,
-        "importPath": "routes.user",
-        "description": "routes.user",
-        "peekOfCode": "def edit(user_id):\n    user = User.get_or_none(User.id == user_id)\n    if not user:\n        return redirect(url_for('user.list'))\n    if request.method == 'POST':\n        user.name = request.form['name']\n        user.age = request.form['age']\n        user.save()\n        return redirect(url_for('user.list'))\n    return render_template('user_edit.html', user=user)",
-        "detail": "routes.user",
-        "documentation": {}
-    },
-    {
-        "label": "user_bp",
-        "kind": 5,
-        "importPath": "routes.user",
-        "description": "routes.user",
-        "peekOfCode": "user_bp = Blueprint('user', __name__, url_prefix='/users')\n@user_bp.route('/')\ndef list():\n    # データ取得\n    users = User.select()\n    return render_template('user_list.html', title='ユーザー一覧', items=users)\n@user_bp.route('/add', methods=['GET', 'POST'])\ndef add():\n    if request.method == 'POST':\n        name = request.form['name']",
-        "detail": "routes.user",
         "documentation": {}
     },
     {
