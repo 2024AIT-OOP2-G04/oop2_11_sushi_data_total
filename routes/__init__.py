@@ -1,4 +1,4 @@
-from routes.api.number_of_usage_by_table import api_bp
+from routes.api.sales_by_good import api_bp
 from .customer import customer_bp
 from .goods import goods_bp
 from .order import order_bp

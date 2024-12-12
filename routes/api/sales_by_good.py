@@ -9,5 +9,5 @@ from .base import api_bp
 def number_of_usage_by_table():
     orders = Order.select()
     print("data", orders)
-    data = [{"id": order.id, "goodsid": order.good.id,"goodsprice":order.good.price} for order in orders]
+    data = [{"id": order.id, "goodsid": order.good.id,"goodsprice":float(order.good.price)} for order in orders]
     return json.dumps(data)
