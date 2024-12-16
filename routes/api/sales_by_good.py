@@ -23,4 +23,4 @@ def number_of_usage_by_table():
         data.append({'id':l[i],'sumprice':sumprice[i]})
     
     data2=sorted(data,key=operator.itemgetter('sumprice'),reverse=True)
-    return json.dumps(data2)
+    return json.dumps(data2,ensure_ascii=False)
