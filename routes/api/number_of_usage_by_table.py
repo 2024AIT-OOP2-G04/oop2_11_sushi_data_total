@@ -15,6 +15,6 @@ def number_of_usage_by_table():
     total_usage_count = sum(table_usage_count.values())
     response_data = {
         "table_usage": sorted([{"table": table, "usage_count": count} for table, count in table_usage_count.items()],key=lambda x: x["table"]),
-        "total_usage_count": total_usage_count
+        
     }
     return json.dumps(response_data)
