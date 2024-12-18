@@ -9,7 +9,9 @@
     />
   </head>
   <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/Chart.min.js"></script>
     <h1>index</h1>
+    <canvas id="ex_chart"></canvas>
     <ul>
       <li><a href="{{ url_for('customer.list') }}">客リスト</a></li>
       <li><a href="{{ url_for('goods.list') }}">商品リスト</a></li>
