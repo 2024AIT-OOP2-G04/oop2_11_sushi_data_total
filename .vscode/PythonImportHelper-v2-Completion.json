@@ -128,6 +128,182 @@
         "documentation": {}
     },
     {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "render_template",
         "importPath": "flask",
         "description": "flask",
@@ -264,6 +440,70 @@
         "documentation": {}
     },
     {
+        "label": "Goods",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Customer",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Customer",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Goods",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
         "label": "Customer",
         "importPath": "models",
         "description": "models",
@@ -321,6 +561,23 @@
         "documentation": {}
     },
     {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "operator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "operator",
+        "description": "operator",
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -373,21 +630,57 @@
         "documentation": {}
     },
     {
+        "label": "api_bp",
+        "kind": 5,
+        "importPath": "routes.api.base",
+        "description": "routes.api.base",
+        "peekOfCode": "api_bp = Blueprint(\"api\", __name__, url_prefix=\"/api\")",
+        "detail": "routes.api.base",
+        "documentation": {}
+    },
+    {
+        "label": "good_of_numberpiece",
+        "kind": 2,
+        "importPath": "routes.api.good_of_numberpiece",
+        "description": "routes.api.good_of_numberpiece",
+        "peekOfCode": "def good_of_numberpiece():\n    try:\n        # Goodsテーブルから全てのデータを取得\n        goods = Goods.select()\n        orders = Order.select()\n    except Exception as e:\n        # データベースエラーの場合は適切なレスポンスを返す\n        return jsonify({\"error\": \"Database query failed\", \"details\": str(e)}), 500\n   # 各商品IDの個数をカウント\n    id_count = {}",
+        "detail": "routes.api.good_of_numberpiece",
+        "documentation": {}
+    },
+    {
         "label": "number_of_usage_by_table",
         "kind": 2,
         "importPath": "routes.api.number_of_usage_by_table",
         "description": "routes.api.number_of_usage_by_table",
-        "peekOfCode": "def number_of_usage_by_table():\n    customers = Customer.select()\n    print(\"data\", customers)\n    data = [{\"id\": customer.id, \"table\": customer.table} for customer in customers]\n    return json.dumps(data)",
+        "peekOfCode": "def number_of_usage_by_table():\n    customers = Customer.select()\n    print(\"data\", customers)\n    data = [{\"id\": customer.id, \"table\": customer.table} for customer in customers]\n    table_data = [entry[\"table\"] for entry in data]\n    table_usage_count = Counter(table_data)\n    total_usage_count = sum(table_usage_count.values())\n    response_data = {\n        \"table_usage\": sorted(\n            [",
         "detail": "routes.api.number_of_usage_by_table",
         "documentation": {}
     },
     {
-        "label": "api_bp",
-        "kind": 5,
-        "importPath": "routes.api.number_of_usage_by_table",
-        "description": "routes.api.number_of_usage_by_table",
-        "peekOfCode": "api_bp = Blueprint(\"api\", __name__, url_prefix=\"/api\")\n@api_bp.route(\"/number_of_usage_by_table\", methods=[\"GET\"])\ndef number_of_usage_by_table():\n    customers = Customer.select()\n    print(\"data\", customers)\n    data = [{\"id\": customer.id, \"table\": customer.table} for customer in customers]\n    return json.dumps(data)",
-        "detail": "routes.api.number_of_usage_by_table",
+        "label": "sales_by_day",
+        "kind": 2,
+        "importPath": "routes.api.sales_by_day",
+        "description": "routes.api.sales_by_day",
+        "peekOfCode": "def sales_by_day():\n    orders = Order.select()\n    amount_data = [0,0,0,0,0,0,0]\n    for element in orders:\n        _weekday = element.order_date.weekday()\n        amount_data[_weekday] += int(element.good.price)\n    data = {\n        \"月曜日\": amount_data[0],\n        \"火曜日\": amount_data[1],\n        \"水曜日\": amount_data[2],",
+        "detail": "routes.api.sales_by_day",
+        "documentation": {}
+    },
+    {
+        "label": "sales_by_good",
+        "kind": 2,
+        "importPath": "routes.api.sales_by_good",
+        "description": "routes.api.sales_by_good",
+        "peekOfCode": "def sales_by_good():\n    orders = Order.select()\n    print(\"data\", orders)\n    l = []\n    sumprice = []\n    data = []\n    for order in orders:\n        if l.count(order.good.name) <= 0:\n            l.append(order.good.name)\n            sumprice.append(float(order.good.price))",
+        "detail": "routes.api.sales_by_good",
+        "documentation": {}
+    },
+    {
+        "label": "get_sales_per_customer",
+        "kind": 2,
+        "importPath": "routes.api.sales_per_customer",
+        "description": "routes.api.sales_per_customer",
+        "peekOfCode": "def get_sales_per_customer():\n    # データベースから客のidの紐付けリストを取得\n    customers = Customer.select()\n    # 配列に整理\n    customers_array = [{\"id\": customer.id, \"table\": customer.table} for customer in customers]\n    data = []\n    for customer in customers_array:##客の数だけforループ\n        customer_id = customer[\"id\"]\n        # その客に合致する注文のリストを表示\n        orders = Order.select().where(Order.customer == customer_id)",
+        "detail": "routes.api.sales_per_customer",
         "documentation": {}
     },
     {
@@ -512,7 +805,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app = Flask(__name__)\n# データベースの初期化\ninitialize_database()\n# 各Blueprintをアプリケーションに登録\nfor blueprint in blueprints:\n    app.register_blueprint(blueprint)\n# ホームページのルート\n@app.route('/')\ndef index():\n    return render_template('index.html')",
+        "peekOfCode": "app = Flask(__name__)\n# データベースの初期化\ninitialize_database()\n# 各Blueprintをアプリケーションに登録 \nfor blueprint in blueprints:\n    app.register_blueprint(blueprint)\n# ホームページのルート\n@app.route('/')\ndef index():\n    return render_template('index.html')",
         "detail": "app",
         "documentation": {}
     }
