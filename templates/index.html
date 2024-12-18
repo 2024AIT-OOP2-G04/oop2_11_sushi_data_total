@@ -15,9 +15,13 @@
       <li><a href="{{ url_for('goods.list') }}">商品リスト</a></li>
       <li><a href="{{ url_for('order.list') }}">注文リスト</a></li>
     </ul>
+    <!-- グラフ表示用ここから　話し合いののち不要になったら削除 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <canvas id="sales_per_customer_graph" width="600" height="300"></canvas>
+    <!-- グラフ表示用　ここまで -->
     <script src="number_of_usage_by_table.js"></script>
+    <script src="/static/sales_per_customer.js"></script>
     <script src="static/number_of_usage_by_table.js"></script>
-    <script src=""></script>
     <script src="good_of_number.js"></script>
     <script src="/static/sales_by_good.js"></script>
   </body>
