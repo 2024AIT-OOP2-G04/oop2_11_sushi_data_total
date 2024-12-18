@@ -7,7 +7,7 @@ app = Flask(__name__)
 # データベースの初期化
 initialize_database()
 
-# 各Blueprintをアプリケーションに登録
+# 各Blueprintをアプリケーションに登録 
 for blueprint in blueprints:
     app.register_blueprint(blueprint)
 
